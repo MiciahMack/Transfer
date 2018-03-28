@@ -1,0 +1,35 @@
+This is just a brief document explaining everything I have done so far with the front-end website, and everything that needs to be completed in order to fully implement the database connections, the API requirements, and the group deliverables. 
+
+
+Completed-----------------------------------
+
+Created appropriate webpages for our site to simulate cross-site functionality.
+Webpages created: MWhome.php, MWdiscovery.php, MWlogin.php, MWregistration.php, and MWprofile.php.
+Basic CSS styling and formating for all webpages to meet basic goals for grading. This includes photos from google, and created images from Gimp; filler text, hyperlinked navigation bars for webpage connectivity, and searching functionality.
+Created a php script "action.php" to enable the search bar to connect to our API for specific artist searches.
+Connected Irena's front end login, and registration pages to the site. Slightly modified them, and improved upon code hygenie. 
+Irenas login/registration pages: login.html, and regis.html respectively. 
+
+
+What needs to be added--------------------------------
+
+MWprofile was coded in a couple of minutes. Nothing is functional on that pages. The page needs to be worked on the function properly once a user logs into their own unique account. 
+Calls for logging in, and registation aren't flushed out. No database support at the moment. Connectivity between you and Irena needs to be completed. 
+In addition, logical escalation from the login page, to the registration page, to the main site needs to be established. Making certain webpages unavilable until a user logs in, or something to that nature need to be implemented in order for logging-in to make logical sense. 
+Coding the template for added playlists, once music is retrieved from the api needs to be added. The same thing goes for rating songs, and the rest of our group deliverables.
+
+
+Extra------------------------------------------------
+
+We recieved full points for the front-end, so most of what you need to do revolves around authentication with Irena's databases, and aestetical implementations such as logical webpage escalation, and unique user accounts.
+RabbitMQ seems to be what is holding us back, so I would advise making simple databases to test login/registration pages once logic escalation is completed. After your tests works, we will have to wait until we figure out RabbitMQ so you can connect to Irena's databases instead.
+Since I'm not working on the front-end anymore, ill focus on the API in relation to the code we both write. Once I'm successful with it on my end, Ill transfer my updated files to you so you can modify the front-end on your side properly. 
+
+--remember that every single file I send to you needs to be added to the /var/www/html/ directory in order to work, even the images. The only file that can be omitted is this one.
+
+--once on your system, you can access the site via web browser by typing in ex. (localhost/MWhome.php) in the URL
+
+--minor spelling mistakes throughout...
+
+
+
